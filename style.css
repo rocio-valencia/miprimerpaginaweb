@@ -1,0 +1,120 @@
+body {
+    background-color: pink;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;}
+h1 { 
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+}
+p{ background-color: whitesmoke;
+    color: purple;
+font-size: 16px;
+text-align: justify;
+margin: 20px;
+padding: 2px;}
+
+/*CLASE 7*/
+.container-nav {
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    background-color: #63105f;
+  }
+  
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 500%;
+  }
+    
+  
+  .brand {
+    display: flex;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    font-style: oblique;
+  }
+
+  nav a:hover {
+    color: #dd86ca;
+  }
+   
+  li>a {
+    padding: 8px 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+  }
+  
+  
+  li {
+    list-style-type: none;
+  }
+  
+  
+  a {
+    color: white;
+    text-decoration:none;
+  }
+  
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  .button-menu-toggle {
+    display: none;
+  }
+
+  @media (max-width: 768px) {
+    .column {
+      flex: 100%;
+    }
+  
+  
+    .nav-links {
+      display: none;
+    }
+  
+  
+    .button-menu-toggle {
+      display: block;
+      background-color: white;
+      border:none;
+      border-radius: 50px;
+      padding: 0 24px;
+      font-family: monospace;
+      font-weight: bold;
+      font-size: 20px;
+    }
+   
+.nav-links.nav-links-responsive {
+      position: absolute;
+      display: block;
+      background-color: rgba(20,20,20,0.95);
+      width: 100%;
+      height: 100%;
+      top: 70px;
+      left: 0;
+      flex-direction: column;
+      padding-top: 200px;
+      align-items: center;
+      gap:70px;
+      font-size: 40px;
+       }
+  }
+.imagen {
+  text-align: center;
+-ms-flex-item-align: center;
+}
+.footer {
+  text-align: center;
+}
